@@ -17,7 +17,8 @@ CODE SEGMENT
      JL NOCHANGE
      MOV BX,[SI]
      NOCHANGE:INC SI
-     INC SIDEC CL
+     INC SI
+     DEC CL
      JNZ AGAIN
      MOV LARGEST,BX
      
