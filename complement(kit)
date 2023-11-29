@@ -1,0 +1,3 @@
+MOV AX,[3000]
+NOT AX
+MOV [4000],AX
